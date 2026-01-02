@@ -190,6 +190,7 @@ body {
     height: 200%;
     background: radial-gradient(circle, rgba(102, 126, 234, 0.1) 0%, transparent 70%);
     animation: cardGlow 8s infinite ease-in-out;
+    pointer-events: none;
 }
 
 @keyframes cardGlow {
@@ -375,6 +376,32 @@ h1 {
     line-height: 1.8;
     margin: 25px 0;
     max-width: 600px;
+}
+
+.seo-section {
+    color: rgba(255, 255, 255, 0.9);
+    margin: 20px auto 10px;
+    max-width: 650px;
+    text-align: left;
+}
+
+.seo-section h2 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.seo-section p {
+    line-height: 1.7;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.highlights {
+    list-style: disc;
+    padding-left: 20px;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.6;
 }
 
 /* Progress Bar */
